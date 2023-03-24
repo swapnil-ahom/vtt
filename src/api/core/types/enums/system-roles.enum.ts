@@ -1,0 +1,16 @@
+export enum SYSTEM_ROLES_ENUM {
+    SUPER_ADMIN = "SUPER_ADMIN",
+    ADMIN = "ADMIN",
+    SUBSCRIBER = "SUBSCRIBER",
+    COORDINATOR = "COORDINATOR",
+    UNDECIDED = "UNDECIDED",
+ }
+
+ export enum SYSTEM_ROLES_ENUM_MAP {
+     SUPER_ADMIN = 1 ,
+     ADMIN = 2,
+     SUBSCRIBER = 3,
+     COORDINATOR= 4,
+     UNDECIDED = 5,
+     TRAINEE = 6,
+ }

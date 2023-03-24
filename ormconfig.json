@@ -1,0 +1,25 @@
+{
+  "type": "mysql",
+  "name": "default",
+  "host": "vtt.atwpl.com",
+  "port": 3306,
+  "username": "remote_vtt_user",
+  "password": "remote_vtt_passwd!",
+  "database": "vtt_dev",
+  "synchronize": true,
+  "logging": true,
+  "entities": [
+    "dist/api/core/models/**/*.model.js",
+    "dist/api/resources/**/*.model.js"
+  ],
+  "migrations": [
+    "dist/migrations/**/*.js"
+  ],
+  "subscribers": [
+    "dist/api/core/subscribers/**/*.subscriber.js",
+    "dist/api/resources/**/*.subscriber.js"
+  ],
+  "cli": {
+    "migrationsDir": "./dist/migrations"
+  }
+}

@@ -1,0 +1,4 @@
+export enum SOCIAL_MEDIA_TYPE {
+    GOOGLE = 'GOOGLE',
+    FACEBOOK = 'FACEBOOK',
+}
