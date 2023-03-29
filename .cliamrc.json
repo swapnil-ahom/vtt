@@ -7,8 +7,7 @@
     },
     "to": {
       "name": "YOUR_TEST_TO_NAME",
-      "email": "test@example.com"  
-      ss 
+      "email": "test@example.com"
     }
   },
   "consumer": {
